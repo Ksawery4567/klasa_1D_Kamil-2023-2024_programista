@@ -25,7 +25,7 @@ void task2()
 int maim()
 {
     //taskl();
-     task2();
+      task2();
 }
 
 /*
