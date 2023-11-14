@@ -71,9 +71,54 @@ void task3()
 }
 void task4()
 {
-	int base=0.0, height=0.0;
-	cout << "Podaj Podstawe:"
+	int base_triangle, height_triangle;
+	cout << "Podaj d³ugoœæ podstawy: ";
+	cin >> base_triangle;
 
+	cout << "Podaj wysokoœæ trójk¹ta: ";
+	cin >> height_triangle;
+
+	int area_triangle = base_triangle * height_triangle;
+	cout << "Pole trójk¹ta o podstawie" << base_triangle << " i wysokoœci " << height_triangle << "jest równe:" << area_triangle;
+}
+void task5()
+{
+	float PI_numer, circle_radius;
+	PI_numer = 3.14159;
+
+	cout << " Podaj promieñ ko³a: ";
+	cin >> circle_radius;
+
+	float area_wheels = PI_numer * circle_radius;
+	cout << " Pole ko³a o promieniu:" << circle_radius << "jest równe" << area_wheels << endl;
+}
+void task6()
+{
+	short a, b, h;
+	std::cout << "Podaj bok a \n";
+	std::cin >> a;
+	std::cout << "Podaj bok b \n";
+	std::cin >> b;
+	std::cout << "Podaj wysokoœæ h \n";
+	std::cin >> h;
+	std::cout << (a * b) * h / 2;
+}
+void task7()
+{
+	short a;
+	std::cout << "Podaj krawêdŸ a \n";
+	std::cin >> a;
+	std::cout << a * a * a;
+}
+void task8()
+{
+	float c;
+	std::cout << "Podaj temperaure w stopniach celcjusza\n";
+	std::cin >> c;
+	std::cout << c * 2 + 30;
+}
+void task9()
+{
 }
 int main()
 {
@@ -82,6 +127,11 @@ int main()
 	task2();
 	task3();
 	task4();
+	task5();
+	task6();
+	task7();
+	task8();
+	task9();
 }
 
 
