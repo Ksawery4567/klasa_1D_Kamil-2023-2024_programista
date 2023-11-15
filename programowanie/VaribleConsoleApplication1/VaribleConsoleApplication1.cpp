@@ -51,31 +51,31 @@ void task2()
 
 
 	float lengthIncentiMeterFromUser = lengthInMeterFromUser * 100;
-	cout << lengthInMeterFromUser << "metrow to\n" << lengthIncentiMeterFromUser << "centymetrow\n" << endl;
+	cout << lengthInMeterFromUser << "metrow to\n" << lengthIncentiMeterFromUser << "centymetrow\n";
 	float lengthInMiliMeterFromUser = lengthInMeterFromUser * 10;
-	cout << lengthInMeterFromUser << "metrow to\n" << lengthInMiliMeterFromUser << "milimetrow\n" << endl;
+	cout << lengthInMeterFromUser << "metrow to\n" << lengthInMiliMeterFromUser << "milimetrow\n";
 	float LengthInKiloMeterFromUser = lengthInMeterFromUser / 1000;
-	cout << lengthInMeterFromUser << "metrow to\n" << LengthInKiloMeterFromUser << "kilometrow\n" << endl;
+	cout << lengthInMeterFromUser << "metrow to\n" << LengthInKiloMeterFromUser << "kilometrow\n";
 }
   /*Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci boku a i b prostok¹ta, a nastêpnie obliczy i wyœwietli pole prostok¹ta.*/
 void task3()
 {
 	int side_a, side_b;
-	cout << "Podaj dlugosc boku a prostokata";
+	cout << "Podaj dlugosc boku a prostokata\n";
 	cin >> side_a;
-	cout << "Podaj dlugosc boku b prostokata";
+	cout << "Podaj dlugosc boku b prostokata\n";
 	cin >> side_b;
 
 	int side_rectangle = side_a * side_b;
-	cout << "Pole prostakata o bokach a=" << side_a << "i b=" << side_b << "Wynik\n" << side_rectangle << endl;
+	cout << "Pole prostakata o bokach a=" << side_a << "i b=" << side_b << "Wynik\n" << side_rectangle;
 }
 void task4()
 {
 	int base_triangle, height_triangle;
-	cout << "Podaj d³ugoœæ podstawy: ";
+	cout << "Podaj d³ugoœæ podstawy:\n ";
 	cin >> base_triangle;
 
-	cout << "Podaj wysokoœæ trójk¹ta: ";
+	cout << "Podaj wysokoœæ trójk¹ta:\n ";
 	cin >> height_triangle;
 
 	int area_triangle = base_triangle * height_triangle;
@@ -86,11 +86,11 @@ void task5()
 	float PI_numer, circle_radius;
 	PI_numer = 3.14159;
 
-	cout << " Podaj promieñ ko³a: ";
+	cout << " Podaj promieñ ko³a:\n ";
 	cin >> circle_radius;
 
 	float area_wheels = PI_numer * circle_radius;
-	cout << " Pole ko³a o promieniu:" << circle_radius << "jest równe" << area_wheels << endl;
+	cout << " Pole ko³a o promieniu:" << circle_radius << "jest równe" << area_wheels;
 }
 void task6()
 {
@@ -119,6 +119,22 @@ void task8()
 }
 void task9()
 {
+	float pln;
+
+	cout << "Zmiana walyty\n";
+	cin >> pln;
+
+	float dolar = pln / 4.14;
+	float euro = pln / 4.56;
+	float funt = pln / 5.06;
+
+	cout << pln << "na z³otówki\n" << dolar << "na dolary\n";
+	cout << pln << "na z³otówki\n" << euro << "na euro\n";
+	cout << pln << "na z³otówki\n" << funt << "na funty\n";
+}
+void task10()
+{
+
 }
 int main()
 {
@@ -132,6 +148,7 @@ int main()
 	task7();
 	task8();
 	task9();
+	task10();
 }
 
 
