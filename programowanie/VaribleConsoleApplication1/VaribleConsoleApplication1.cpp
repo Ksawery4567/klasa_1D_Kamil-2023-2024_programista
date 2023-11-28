@@ -133,6 +133,7 @@ void task9()
 	cout << pln << "na z³otówki\n" << funt << "na funty\n";
 }
 void task10()
+
 {
 
 }
