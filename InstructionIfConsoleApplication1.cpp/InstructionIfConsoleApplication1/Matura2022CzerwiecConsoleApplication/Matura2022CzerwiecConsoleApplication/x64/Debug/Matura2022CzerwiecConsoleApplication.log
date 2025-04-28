@@ -1,0 +1,6 @@
+﻿  Matura2022czerwiec.cpp
+  zadanie4.1.cpp
+  Generowanie kodu...
+zadanie4.1.obj : error LNK2005: Element "int __cdecl reverseNumber(int)" (?reverseNumber@@YAHH@Z) jest już zdefiniowany w elemencie Matura2022czerwiec.obj
+zadanie4.1.obj : error LNK2005: Element main jest już zdefiniowany w elemencie Matura2022czerwiec.obj
+D:\Matura2022CzerwiecConsoleApplication\x64\Debug\Matura2022CzerwiecConsoleApplication.exe : fatal error LNK1169: znaleziono co najmniej jeden wielokrotnie zdefiniowany symbol
